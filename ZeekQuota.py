@@ -7,7 +7,7 @@ import gzip
 import shutil
 import sys
 import subprocess
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor # Used to concurrently extract Zeek archive files.
 
 # Function to install required packages
 def install(package):
